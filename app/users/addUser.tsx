@@ -39,7 +39,7 @@ function AddUser() {
 
   return (
     <div>
-      <button className="btn btn-secondary" onClick={handleChange}>
+      <button className="btn btn-success" onClick={handleChange}>
         Add New
       </button>
       <input type="checkbox" checked={modal} onChange={handleChange} className="modal-toggle" />

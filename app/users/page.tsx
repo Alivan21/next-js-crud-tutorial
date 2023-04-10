@@ -15,8 +15,9 @@ async function getUsers() {
 async function UserList() {
   const users: User[] = await getUsers();
   return (
-    <div className="p-10">
-      <div className="py-2">
+    <div className="p-20">
+      <div className="py-2 flex justify-between">
+        <h1 className="text-3xl font-bold">List User</h1>
         <AddUser />
       </div>
       <table className="table w-full">
